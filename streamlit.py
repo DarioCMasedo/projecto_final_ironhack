@@ -42,7 +42,7 @@ if _input and _input2 and n == "442":
     ax = fun.alineacion_442(int(_input),int(_input2))
     image = Image.open('output/images/442.jpg')
     st.write(ax)
-    st.image(image, caption='442')
+    st.image(image)
 elif _input and _input2 and n == "433":
     ax = fun.alineacion_433(int(_input),int(_input2))
     image = Image.open('output/images/433.jpg')
@@ -52,11 +52,11 @@ elif _input and _input2 and n == "343":
     ax = fun.alineacion_343(int(_input),int(_input2))
     image = Image.open('output/images/343.jpg')
     st.write(ax)
-    st.image(image, caption='343')
+    st.image(image)
 elif _input and _input2 and n == "532":
     ax = fun.alineacion_532(int(_input),int(_input2))
     image = Image.open('output/images/532.jpg')
     st.write(ax)
-    st.image(image, caption='532')
+    st.image(image)
 else:
-    st.write('No Data')
+    st.write('No hay datos seleccionados')
