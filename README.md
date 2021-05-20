@@ -48,8 +48,9 @@ Ya teniendo una visualizacion de dichos atributos, selecciono los mejores atribu
 
 
 
-Ya con los atributos en mano, hacemos ml, un modelo por posicion, utilizando las librerias H20, sklearn
-Teniendo el modelo, guardado en notebooks/prediccion_jugadores, es hora de hacerlo en streamlit.
+Ya con los atributos en mano, hacemos ml, un modelo por posicion, utilizando las librerias H20, sklearn. 
+
+Teniendo el modelo, guardado en notebooks/prediccion_jugadores, es hora de pasarlo a streamlit.
 
 
 Podremos elegir entre varias alineaciones
@@ -63,7 +64,7 @@ Un presupuesto en millones y un maximo de edad para que nos haga el equipo.
 
 
 
-### DISTRIBUCION DEL REPOSITORIO
+##### DISTRIBUCION DEL REPOSITORIO
 
 - Notebooks ---> limpieza de los datos, modelos de machine learning, alineaciones utilizadas en el projecto.
 - Input ---> imagen de la portada y datos de los jugadores.
