@@ -1,5 +1,5 @@
 
-(input/futbol.jpg.jpg)
+![Prediccion Valore de jugadores de futbol](input/futbol.jpg)
 
 En este projecto, realizaremos machine learning para predecir el valor de los jugadores y luego crear nuestro
 propio equipo con un presupuesto y un maximo de edad.
