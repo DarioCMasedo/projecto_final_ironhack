@@ -22,15 +22,33 @@ Tendremos que ver que atributos son mejores para cada posicion mencionada anteri
 
 Ya teniendo una visualizacion de dichos atributos, selecciono los mejores atributos para cada posicion.
 
-- Porteros:
+- Porteros: 'gk_diving',
+ 'gk_handling',
+ 'gk_kicking',
+ 'gk_reflexes',
+ 'gk_speed',
+ 'gk_positioning'.
 
-- Defensas:
+- Defensas: 'defending_marking',
+'defending_standing_tackle',
+'defending_sliding_tackle',
 
-- Medios:
+- Medios: 'dribbling',
+ 'skill_fk_accuracy',
+ 'skill_long_passing',
+ 'skill_ball_control',
+ 'mentality_vision',
 
-- Delanteros:
+- Delanteros: 'mentality_positioning',
+ 'attacking_finishing',
+ 'movement_reactions',
+ 'skill_ball_control',
+ 'power_shot_power',
 
-Ya con los atributos en mano, hacemos ml, un modelo por posicion, utilizamos las librerias H20, sklearn.....
+
+
+
+Ya con los atributos en mano, hacemos ml, un modelo por posicion, utilizandolas librerias H20, sklearn.....
 
 
 
