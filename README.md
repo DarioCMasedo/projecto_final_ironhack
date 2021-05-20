@@ -1,5 +1,5 @@
 
-![Prediccion Valore de jugadores de futbol](input/futbol.jpg)
+![Prediccion Valor de jugadores de futbol](input/futbol.jpg)
 
 En este projecto, realizaremos machine learning para predecir el valor de los jugadores y luego crear nuestro
 propio equipo con un presupuesto y un maximo de edad.
@@ -48,14 +48,37 @@ Ya teniendo una visualizacion de dichos atributos, selecciono los mejores atribu
 
 
 
-Ya con los atributos en mano, hacemos ml, un modelo por posicion, utilizandolas librerias H20, sklearn.....
+Ya con los atributos en mano, hacemos ml, un modelo por posicion, utilizando las librerias H20, sklearn
+Teniendo el modelo, guardado en notebooks/prediccion_jugadores, es hora de hacerlo en streamlit.
 
 
+Podremos elegir entre varias alineaciones
+
+- 442
+- 433
+- 343
+- 532
+
+Un presupuesto en millones y un maximo de edad para que nos haga el equipo.
+
+
+
+### DISTRIBUCION DEL REPOSITORIO
+
+- Notebooks ---> limpieza de los datos, modelos de machine learning, alineaciones utilizadas en el projecto.
+- Input ---> imagen de la portada y datos de los jugadores.
+- Output ---> Datos limpios, predicciones por cada posicion, atributos importantes por posicion y alineaciones.
+- Src ---> Archivo que contiene las funciones utilizadas
+- Streamlit.py ---> Arranca la aplicacion : streamlit run streamlit.py
 
 
 ## LIBRERIAS UTILIZADAS
 
+
+* [Pandas](https://pandas.pydata.org/)
+* [Kaggle](https://www.kaggle.com/)
 * [Streamlit](https://streamlit.io/)
+* [Plotly](https://plotly.com/python/)
 * [MLP-Soccer](https://pypi.org/project/mplsoccer/)
 * [Jupyter](https://jupyter.org/)
 * [Python](https://www.python.org/)
